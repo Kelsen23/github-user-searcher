@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  border-sizing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
   background-color:rgb(228, 240, 253)         
 }
@@ -45,7 +45,7 @@ body {
   padding-bottom: 7px;
   padding-right: 17px;
   padding-left: 17px;
-  min-width: 300px
+  min-width: 300px;
   width: 30%;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .input {
-  backgorund-color: transperent;
+  background-color: transperent;
   border: none;
   outline: none;
   margin-left: 10px;
@@ -160,7 +160,7 @@ body {
 .location, .githubProfile, .twitter, .company {
   display: flex;
   align-items: center;
-  justify-center: center;
+  justify-content: center;
   font-size: 17px;
   gap: 8px;
 }
@@ -172,7 +172,7 @@ body {
 .githubProfile {
   display: flex;
   align-items: center;
-  justify-center: center;
+  justify-content: center;
   gap: 8px;
 }
 
