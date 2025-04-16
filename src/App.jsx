@@ -30,6 +30,8 @@ const App = () => {
             blog: data.blog,
             company: data.company,
           })
+        } else {
+          alert("User not found.")
         }
         setInputValue("");
       } catch(error) {
